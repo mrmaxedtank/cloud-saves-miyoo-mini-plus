@@ -9,7 +9,7 @@ progress=/tmp/rclone_progress
 
 build_infoPanel() {
 	local message="$1"
-	local title="Downloading saves"
+	local title="Downloading saves (test)"
 	
 	infoPanel --title "$title" --message "$message" --persistent &
 	touch /tmp/dismiss_info_panel
