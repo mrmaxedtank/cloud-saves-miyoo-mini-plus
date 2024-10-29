@@ -26,3 +26,4 @@ run_upload() {
 }
 
 run_upload
+build_infoPanel "Upload finished"
