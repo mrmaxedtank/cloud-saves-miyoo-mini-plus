@@ -1,3 +1,4 @@
+<!--
 # Cloud Saves for the Miyoo Mini+
 
 ![Main Apps UI](https://github.com/hotcereal/files/blob/main/Unknown-3.png?raw=true)
@@ -33,3 +34,4 @@ If you notice the information screens display for a flash or a second or so, som
 Messing with the time a lot on your device can sometimes create authentication problems with rclone. However, in my minimal testing, I've found that while using the default CLIENT_ID and CLIENT_SECRET in rclone does result in slower upload and download times, it migigates the proble of having to repeatedly fix the rclone configuration file. 
 
 All of these apps are powered by simple Linux commands. Feel free to edit them how you see fit. 
+-->
