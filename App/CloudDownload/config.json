@@ -1,7 +1,7 @@
 {
-"label":"Cloud Download (test)",
-"icon":"clouddown.png",
-"iconsel":"",
-"launch":"launch.sh",
-"description":"Downloads cloud saves to device"
+  "label":       "Cloud Download (custom)",
+  "icon":        "clouddown.png",
+  "iconsel":     "",
+  "launch":      "launch.sh",
+  "description": "Download saves with rclone"
 }
