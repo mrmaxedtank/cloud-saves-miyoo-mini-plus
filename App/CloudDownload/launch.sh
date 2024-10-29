@@ -20,7 +20,7 @@ build_infoPanel() {
 run_download() {
 	build_infoPanel "Starting download"
 	> $progress
-	/mnt/SDCARD/rclone copy -P -L --no-check-certificate cloud:Onion/saves/retroarch/ /mnt/SDCARD/Saves/CurrentProfile/ > $progress
+	/mnt/SDCARD/rclone copy -P --stats 5s --stats-one-line -L --no-check-certificate cloud:Onion/saves/retroarch/ /mnt/SDCARD/Saves/CurrentProfile/ > $progress
 	progress_message='cat $progress'
 	build_infoPanel progress_message
 }
